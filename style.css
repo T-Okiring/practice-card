@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.card {
+  background-color: #fff;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  border-radius: 20px;
+  margin: 1rem;
+}
+.left-side {
+  background: linear-gradient(
+    to top left,
+    rgb(66, 66, 228),
+    rgb(216, 216, 226),
+    rgb(234, 234, 237)
+  );
+  width: 15%;
+  height: 115vh;
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2rem;
+  border-radius: 15px;
+}
+.top-left {
+  display: flex;
+  flex-direction: column;
+}
+.bottom-left {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+}
+.right-side {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.himg1 {
+  height: 11px;
+  width: 17px;
+}
+.himg2 {
+  height: 30px;
+  width: 30px;
+  border: solid 2px black;
+  border-radius: 30px;
+}
+.fimg1 {
+  height: 12px;
+  width: 16px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.right-header-icons {
+  display: flex;
+  position: relative;
+  width: 10%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem;
+}
+.search-btn {
+  position: relative;
+  width: 40%;
+  display: flex;
+  padding: 1rem;
+}
+.bx-search {
+  color: gray;
+  position: absolute;
+  left: 6%;
+  top: 37%;
+}
+.s-btn {
+  width: 100%;
+  height: 30px;
+  border-radius: 15px;
+  border: solid gray 1px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+}
+.parag1 {
+  position: absolute;
+  background-color: rgb(69, 69, 220);
+  top: 18%;
+  left: 20%;
+  font-size: small;
+}
+.parag2 {
+  background-color: rgb(54, 54, 221);
+  position: absolute;
+  top: 18%;
+  right: 40%;
+  font-size: small;
+}
+.card01 {
+  width: 24%;
+  margin-top: 1rem;
+  height: 20rem;
+  border-radius: 20px;
+  box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
+    0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+.cimg {
+  width: 100%;
+  height: 11rem;
+}
+.cardfooter {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+.footer-text {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.crdtext {
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+  border-bottom: 2px solid rgba(103, 102, 102, 0.931);
+}
+
+.lasth3 {
+  font-size: small;
+}
+
+.lftbuttn {
+  padding: 0.5rem;
+  width: 80%;
+  color: white;
+  font-weight: 600;
+  background-color: rgb(60, 60, 249);
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 15px;
+}
+.lefth1 {
+  margin-top: 1rem;
+  font-weight: bolder;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-weight: bolder;
+}
+.top-left {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  gap: 25px;
+}
+.four-topcards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.sh3 {
+  font-size: small;
+  padding-left: 0;
+}
+.cv {
+  width: 100vw;
+  height: 100vh;
+}
